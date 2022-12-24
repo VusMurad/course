@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightside {
+    width: 250px;
+    height: 100px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 70px;
+}
+
+.rightside h3 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1E0E62;
+}
+
+.leftside {
+    width: 550px;
+    height: 100px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 320px;
+}
+
+.leftside ul li {
+    list-style: none;
+    float: left;
+    padding-right: 30px;
+}
+
+.leftside ul li a {
+    text-decoration: none;
+    color: #1E0E62;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.signin {
+    width: 100px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 90px;
+}
+
+.mybtn {
+    border: 2px solid #EBEAED;
+    width: 100px;
+    height: 40px;
+    border-radius: 150px;
+    border: 2px solid #EBEAED
+}
+
+.mybtn a {
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.section2 {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.section2 .introduction h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    color: #1E0E62;
+    line-height: 70px;
+}
+
+.started {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.started button {
+    background: #25DAC5;
+    border-radius: 100px;
+    width: 170px;
+    height: 60px;
+    border-color: transparent;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #fff;
+}
+
+.started button a {
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #fff;
+}
+
+.picture {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-top: 50px;
+}
+
+.picture .macbookimg img {
+    width: 940px;
+    height: 541px;
+}
+
+.footer1 {
+    width: 100%;
+    height: 200px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.footerletter {
+    width: 315px;
+    height: 85px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.footerletter p {
+    position: relative;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(21, 20, 57, 0.4);
+    padding-top: 10px;
+}
+
+.vertical {
+    border: 0;
+    margin: 0;
+    border-right: 2px solid rgba(21, 20, 57, 0.4);
+    height: 126px;
+    float: left;
+    margin-right: 45px;
+    opacity: 0.3;
+}
+
+.page2 {
+    width: 100%;
+    height: 900px;
+    background-color: transparent;
+    float: left;
+}
+
+.easysteps {
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+
+.easysteps h3 {
+    margin: 15px 0px 0px 150px;
+    float: left;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    color: #1E0E62;
+}
+
+.center2 {
+    width: 100%;
+    height: 800px;
+}
+
+.center2 .allfigured {
+    float: right;
+    padding-right: 30px;
+}
+
+.center2 .figured {
+    width: 15%;
+    height: 800px;
+    float: left;
+}
+
+.center2 .figured .circle {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #EBEAED;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.center2 .figured .line1 {
+    width: 2px;
+    height: 170px;
+    background-color: #EBEAED;
+    margin-left: 18px;
+}
+
+.center2 .figured .line2 {
+    width: 2px;
+    height: 400px;
+    background-color: #EBEAED;
+    margin-left: 18px;
+}
+
+.center2 .letters {
+    width: 85%;
+    height: 800px;
+    float: left;
+}
+
+.letters .step1 {
+    width: 100%;
+    height: 150px;
+    float: left;
+}
+
+.letters .step1 .question {
+    width: 470px;
+    height: 28px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.letters .step1 .answer {
+    width: 708px;
+    height: 78px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.letters .step2 {
+    width: 100%;
+    height: 420px;
+    float: left;
+}
+
+.letters .step2 .question {
+    width: 470px;
+    height: 28px;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.letters .step2 .answer {
+    width: 722px;
+    height: 78px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.letters .stepimg {
+    width: 100%;
+    height: 15 0px;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.letters .stepimg img {
+    width: 170px;
+    height: 113px;
+    border-radius: 5px;
+    object-fit: cover;
+    float: left;
+    margin-top: 30px;
+}
+
+.stepimg .imgletter {
+    width: 400px;
+    height: 40px;
+    float: left;
+    margin-top: 20px;
+}
+
+.stepimg .imgletter .question {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5px 0 0 40px;
+    color: rgba(21, 20, 57, 0.4);
+}
+
+.stepimg .imgletter .answer {
+    width: 304px;
+    height: 78px;
+    float: left;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0 0 0 40px;
+    color: rgba(21, 20, 57, 0.4);
+}
+
+.step3 {
+    width: 100%;
+    height: 200px;
+    float: left;
+}
+
+.step3 .question {
+    width: 470px;
+    height: 28px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.step3 .answer {
+    width: 708px;
+    height: 52px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.letters p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1E0E62;
+}
+
+.letters span {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(21, 20, 57, 0.4);
+}
+
+.stepbtn button {
+    width: 160px;
+    height: 50px;
+    background-color: #25DAC5;
+    border-color: transparent;
+    border-radius: 100px;
+    margin: 20px 0 0 20px;
+}
+
+.stepbtn button a {
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+}
+
+.page3 {
+    width: 100%;
+    height: 900px;
+    float: left;
+}
+
+.page3 .letters3 {
+    width: 50%;
+    height: 900px;
+    float: left;
+}
+
+.page3 .design .letters3 .allcontent {
+    padding-left: 250px;
+    padding-top: 170px;
+}
+
+.page3 .design .letters3 .bigcontent {
+    width: 443px;
+    height: 104px;
+}
+
+.page3 .design .letters3 .bigcontent h3 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+    color: #1E0E62;
+}
+
+.page3 .design .letters3 .smallcontent {
+    width: 391px;
+    height: 192px;
+    padding-top: 30px;
+}
+
+.page3 .design .letters3 .smallcontent h5 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: rgba(21, 20, 57, 0.4);
+    mix-blend-mode: normal;
+}
+
+.page3 .design .letters3 .checked {
+    width: 210px;
+    height: 20px;
+    margin-top: 60px;
+}
+
+.page3 .design .letters3 .checked i {
+    font-family: 'FontAwesome';
+    font-size: 18px;
+    line-height: 18px;
+    color: #1E0E62;
+    padding-right: 15px;
+}
+
+.page3 .design .letters3 .checked span {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1E0E62;
+}
+
+.page3 .design .letters3 .lastcontent {
+    width: 360px;
+    height: 52px;
+    margin-top: 15px;
+}
+
+.page3 .design .letters3 .lastcontent p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(21, 20, 57, 0.4);
+}
+
+.page3 .phoneimg {
+    width: 50%;
+    height: 900px;
+    float: left;
+}
+
+.page3 .phoneimg img {
+    width: 630px;
+    height: 720px;
+    padding-top: 150px;
+}
