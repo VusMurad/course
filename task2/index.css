@@ -71,7 +71,6 @@ body {
 }
 
 .mybtn {
-    border: 2px solid #EBEAED;
     width: 100px;
     height: 40px;
     border-radius: 150px;
@@ -308,19 +307,32 @@ body {
 
 .letters .stepimg {
     width: 100%;
-    height: 15 0px;
+    height: 150px;
     margin-bottom: 150px;
     margin-top: 50px;
     margin-left: 20px;
 }
 
-.letters .stepimg img {
+.letters .imgicon {
+    background-image: url(images/lionelmain.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 170px;
     height: 113px;
     border-radius: 5px;
-    object-fit: cover;
     float: left;
     margin-top: 30px;
+}
+
+.careticon {
+    font-family: 'FontAwesome';
+    font-size: 25px;
+    line-height: 23px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 50px;
 }
 
 .stepimg .imgletter {
