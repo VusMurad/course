@@ -430,13 +430,13 @@ body {
 }
 
 .page3 .letters3 {
-    width: 50%;
+    width: 45%;
     height: 900px;
     float: left;
 }
 
 .page3 .design .letters3 .allcontent {
-    padding-left: 250px;
+    padding-left: 200px;
     padding-top: 170px;
 }
 
@@ -510,13 +510,38 @@ body {
 }
 
 .page3 .phoneimg {
-    width: 50%;
+    width: 55%;
     height: 900px;
     float: left;
+    padding-top: 200px;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
-.page3 .phoneimg img {
+/* .page3 .phoneimg img {
     width: 630px;
     height: 720px;
     padding-top: 150px;
+} */
+
+.whiteimg {
+    width: 440px;
+    height: 600px;
+    float: left;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    z-index: 2;
+}
+
+.blackimg {
+    width: 500px;
+    height: 650px;
+    display: block;
+    position: relative;
+    top: 0;
+    left: 80px;
+    z-index: 1;
+
 }
